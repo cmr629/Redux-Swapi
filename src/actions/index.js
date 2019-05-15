@@ -11,7 +11,7 @@ export const FETCH = "FETCH";
 export const FETCH_SUCCESS = "FETCH_SUCCESS";
 export const FETCH_FAILED = "FETCH_FAILURE";
 
-export const myCleverAction = () => dispatch => {
+export const characterFetch = () => dispatch => {
     dispatch({type: FETCH});
     const request = axios.get('https://swapi.co/api/people');
     request.then(({data}) => {

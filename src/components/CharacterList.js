@@ -12,4 +12,5 @@ const CharacterList = props => {
   );
 };
 
+
 export default CharacterList;
